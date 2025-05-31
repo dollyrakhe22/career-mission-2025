@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+}
+#nav-bar{
+    background-color:#FFFFFF;
+   
+    
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px; 
+    align-items: center;
+}
+.career{
+   font-weight: bolder;
+}
+.io{
+    color: #FFA500;
+}
+.button-box{
+    
+    background-image:linear-gradient(#FFA500,#FFD447) ;
+    padding: 12px;
+   font-size: 20px;
+    font-weight: 150px;
+    border: none;
+    border-radius: 5px;
+    font-weight:500;
+    
+}
+/*Section-2*/
+.developer-box{
+    background-color: #E6EDF9;
+    margin: 80px 70px 80px 70px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+   
+}
+/*Section-3*/
+.dummy-text{
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+.dummy-text h1{
+    line-height: 80px;
+}
+/*Section-4*/
+.developer-card{
+    display: flex;
+    justify-content: space-between;
+     background-color: #E6EDF9;
+    margin: 80px 70px 80px 70px;
+     padding: 50px 50px 50px 50px;
+     border-radius: 10px;
+
+      
+}
+.developer-content{
+    padding:80px;
+    line-height: 60px;
+    
+}
+.video-card{
+    border: 1px solid dimgray;
+     margin: 0px 170px 80px 170px;
+    padding: 20px 0px 10px 0px;
+    border-radius: 10px;
+    
+}
+.video-card iframe{
+    border-radius: 10px;
+}
+
+
+.video-content{
+    text-align: center;
+    margin-bottom: 0px;
+    
+   
+}
+
+
+/*card-box*/
+.card-box{
+    
+    width: 200px;
+    padding: 50px;
+    background-image: linear-gradient(#E6EDF9,#9DE5FF);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -1px;
+    
+}
+.target-box{
+   text-align: center;
+   
+}
+ 
+
+
+.targets-box-1{
+       display: flex;
+       text-align: center;
+       margin:  40px  0px 40px  210px;
+       gap: 70px;
+     
+}
+#footer{
+  background-color:#FFFFFF;
+
+}
+.footer-content{
+     display: flex;
+    justify-content: space-between;
+    padding: 25px; 
+    align-items: center;
+   
+}
+.footer-content ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-right: 45px;
+    
+    
+}
